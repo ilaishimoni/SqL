@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="showall"
+    android:orientation="vertical"
+    tools:context=".view_meals">
+
+    <Switch
+        android:id="@+id/sw5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:buttonTint="#F4B400"
+        android:fontFamily="casual"
+        android:hint="Insert Data / Show data"
+        android:onClick="switch_b"
+        android:textColorHint="#4285F4 "
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvrecords_meals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="#4285F4"
+        android:headerDividersEnabled="false">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/filter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#DB4437"
+            android:onClick="sort"
+            android:text="sort" />
+
+        <Button
+            android:id="@+id/sort"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#0F9D58"
+            android:onClick="filter"
+            android:text="filter" />
+    </LinearLayout>
+</LinearLayout>

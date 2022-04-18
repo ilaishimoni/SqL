@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user_view">
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:buttonTint="#F4B400"
+        android:fontFamily="casual"
+        android:hint="Insert Data / Show data"
+        android:onClick="switch_b"
+        android:textColorHint="#0F9D58"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvrecords_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="#0F9D58" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/filter2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#DB4437"
+            android:onClick="filter"
+            android:text="Filter" />
+
+        <Button
+            android:id="@+id/sort2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#F4B400 "
+            android:onClick="sort"
+            android:text="Sort" />
+    </LinearLayout>
+</LinearLayout>

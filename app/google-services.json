@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1057104264888",
+    "project_id": "gavyam-465c0",
+    "storage_bucket": "gavyam-465c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057104264888:android:122980401ed7fe75ae3e4d",
+        "android_client_info": {
+          "package_name": "com.example.fbdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057104264888-76qanqhdp2c3j3avg3fjumiuj1p9r503.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBviGcmqeQc1KcvKfM64zGz3AoC6GWFvRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057104264888-76qanqhdp2c3j3avg3fjumiuj1p9r503.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

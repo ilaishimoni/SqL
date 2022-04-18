@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/HomeScreen"
+        android:title="Home" />
+    <item
+        android:id="@+id/Credits"
+        android:title="Credits" />
+    <item
+        android:id="@+id/Users"
+        android:title="Users" />
+    <item
+        android:id="@+id/Orders"
+        android:title="Orders" />
+    <item
+        android:id="@+id/Meals"
+        android:title="Meals" />
+    <item
+        android:id="@+id/Companies"
+        android:title="Companies" />
+</menu>
